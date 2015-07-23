@@ -1,0 +1,31 @@
+/**
+ * Xtreme Indoor Responsive Stylesheet
+ *
+ * @copyright       Copyright 2014 Inpsyde GmbH
+ * @license         see http://www.marketpress.de/agb/
+ * @link            http://marketpress.com/product/xtreme/
+ * @package         xtreme-one
+ */
+@media screen and (max-width:760px){
+
+	#secondarynav ul > li {
+		display: inline !important;
+		float: left !important;
+		width: auto !important;
+		margin:10px 0 !important;
+	}
+
+	#primarynav ul li {
+		float:none !important;
+	}
+
+	/* showing the submenus */
+	.sf-menu ul li,
+	.sub-menu {
+		background: none !important;
+		border: none !important;
+	}
+
+	#footer.xf-blog { border:none !important; }
+
+}
